@@ -1,0 +1,1 @@
+Portal used by customers for managing their account, viewing products, placing orders and tracking orders.

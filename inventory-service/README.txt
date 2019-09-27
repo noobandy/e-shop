@@ -1,0 +1,1 @@
+Provides APIs for maneging inventory, stocking , restocking, listing products, searching products mathing search text and category.

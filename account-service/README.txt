@@ -1,0 +1,1 @@
+Provides APIs related to account management, such as registration, authentication, authorzation, customer profile management.
