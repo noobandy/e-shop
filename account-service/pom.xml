@@ -12,7 +12,7 @@
 	<artifactId>account-service</artifactId>
 	<name>account-service</name>
 	<description>Demo project for Spring Boot</description>
-	
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -25,6 +25,11 @@
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
+		<dependency>
+			<groupId>in.anandm.eshop</groupId>
+			<artifactId>eshop-core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
