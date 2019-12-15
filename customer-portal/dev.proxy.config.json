@@ -1,37 +1,10 @@
 {
-    "/account-api/*": {
-        "target": "http://localhost:3002/account-api/",
+    "/api/*": {
+        "target": "http://localhost:3000/",
         "secure": false,
         "logLevel": "debug",
         "pathRewrite": {
-            "^/account-api": ""
-        },
-        "changeOrigin": true
-    },
-    "/inventory-api/*": {
-        "target": "http://localhost:3003/inventory-api/",
-        "secure": false,
-        "logLevel": "debug",
-        "pathRewrite": {
-            "^/inventory-api": ""
-        },
-        "changeOrigin": true
-    },
-    "/cart-api/*": {
-        "target": "http://localhost:3004/cart-api/",
-        "secure": false,
-        "logLevel": "debug",
-        "pathRewrite": {
-            "^/cart-api": ""
-        },
-        "changeOrigin": true
-    },
-    "/order-api/*": {
-        "target": "http://localhost:3005/order-api/",
-        "secure": false,
-        "logLevel": "debug",
-        "pathRewrite": {
-            "^/order-api": ""
+            "^/api": ""
         },
         "changeOrigin": true
     }

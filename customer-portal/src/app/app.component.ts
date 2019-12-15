@@ -16,14 +16,14 @@ export class AppComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.httpClient.get('/account-api/', { responseType: "text" }).subscribe(data => {
+    this.httpClient.get('/api/account-api/', {responseType: "text"}).subscribe(data => {
       this.messages.push(`Success: ${data}`)
     }, err => {
       console.log(err)
       this.messages.push(`Error: ${err}`)
     })
 
-    this.httpClient.get('/order-api/', { responseType: "text" }).subscribe(data => {
+    this.httpClient.get('/api/order-api/', {responseType: "text"}).subscribe(data => {
       this.messages.push(`Success: ${data}`)
     }, err => {
       console.log(err)
@@ -31,14 +31,14 @@ export class AppComponent implements OnInit {
     })
 
 
-    this.httpClient.get('/inventory-api/', { responseType: "text" }).subscribe(data => {
+    this.httpClient.get('/api/inventory-api/', {responseType: "text"}).subscribe(data => {
       this.messages.push(`Success: ${data}`)
     }, err => {
       console.log(err)
       this.messages.push(`Error: ${err}`)
     })
 
-    this.httpClient.get('/cart-api/', { responseType: "text" }).subscribe(data => {
+    this.httpClient.get('/api/cart-api/', {responseType: "text"}).subscribe(data => {
       this.messages.push(`Success: ${data}`)
     }, err => {
       console.log(err)

@@ -16,5 +16,6 @@
 		<module>cart-service</module>
 		<module>inventory-service</module>
 		<module>order-service</module>
+		<module>api-gateway</module>
 	</modules>
 </project>
